@@ -14,11 +14,11 @@ function hello_world_hello_world_page() {
     var content = {};
     content['my_button'] = {
         theme: 'button',
-        text: 'Hello World',
+        text: 'Methode raussuchen',
         attributes: {
-            onclick: "drupalgap_goto('simple_page', {transition:'slide'})"
+            onclick: "drupalgap_goto('methode_raussuchen_pdiv', {transition:'slide'})"
         }
     }
 
-    return content;
+      return content;
 }

@@ -12,7 +12,6 @@ function show_swipe_menu() {
     }
 }
 
-
 function show_swipe_simple_page() {
     try{
         //Build content

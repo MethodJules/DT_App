@@ -1,0 +1,42 @@
+/*Farben der Buttons in den verschiednen Raumen und Phasen einstellen*/
+
+#problemraumdivergent {
+  background-color: #bc00004a;
+  border-color: #bc00004a;
+  text-shadow: none;
+}
+
+#problemraumkonvergent {
+  background-color: #bc000085;
+  border-color: #bc000085;
+  text-shadow: none;
+}
+
+#loesungsraumdivergent {
+  background-color: #fff2cc;
+  border-color: #fff2cc;
+  color: #6a6767cf;
+  text-shadow: none;
+}
+
+#loesungsraumkonvergent {
+  background-color: #fee599;
+  border-color: #fee599;
+  color: #6a6767cf;
+  text-shadow: none;
+}
+
+#implementierungsraumdivergent {
+  background-color: #d7e3bf;
+  border-color: #d7e3bf;
+  color: #6a6767cf;
+  text-shadow: none;
+}
+
+#implementierungsraumkonvergent {
+  background-color: #d7e3bf;
+  border-color: #d7e3bf;
+  color: #6a6767cf;
+  text-shadow: none;
+}
+

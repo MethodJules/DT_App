@@ -15,7 +15,7 @@ Drupal.settings.debug = true;
 /* DRUPAL PATHS */
  
 // Site Path (do not use a trailing slash)
-Drupal.settings.site_path = 'http://localhost/drupalgap7_demo'; // e.g. http://www.example.com
+Drupal.settings.site_path = 'http://dt-app.dd:8083/'; // e.g. http://www.example.com
 
 // Default Services Endpoint Path
 Drupal.settings.endpoint = 'drupalgap';
@@ -102,8 +102,9 @@ Drupal.settings.cache.views = {
 // DrupalGap Mode (defaults to 'web-app')
 //  'web-app' - use this mode to build a web application for a browser window
 //  'phonegap' - use this mode to build a mobile application with phonegap
-drupalgap.settings.mode = 'phonegap';
 
+//drupalgap.settings.mode = 'phonegap';
+drupalgap.settings.mode = 'web-app';
 // Language Files - locale/[language-code].json
 drupalgap.settings.locale = {
    /* es: { } */
@@ -420,4 +421,12 @@ drupalgap.settings.cache = {}; // Do not remove this line.
 
 // Theme Registry - Set to true to load the page.tpl.html contents from cache.
 drupalgap.settings.cache.theme_registry = true;
+
+drupalgap.settings.front = 'hello_world';
+
+/** Custom Modules - www/app/modules/custom **/
+Drupal.modules.custom['hello_world'] = {};
+Drupal.modules.custom['methode_raussuchen'] = {};
+
+
 
