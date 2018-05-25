@@ -427,6 +427,6 @@ drupalgap.settings.front = 'hello_world';
 /** Custom Modules - www/app/modules/custom **/
 Drupal.modules.custom['hello_world'] = {};
 Drupal.modules.custom['methode_raussuchen'] = {};
-
+Drupal.modules.custom['methoden_uebersicht'] = {};
 
 
